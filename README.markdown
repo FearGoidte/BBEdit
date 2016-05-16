@@ -1,6 +1,6 @@
 # BBEdit settings
 
-Some of the Clippings and scripts that are lurking in the `Application Support` folder for my [BBEdit](http://www.barebones.com/products/bbedit/) installation.
+Some of the clippings and scripts that are lurking in the `Application Support` folder for my [BBEdit](http://www.barebones.com/products/bbedit/) installation.
 
 Locally, I’m using the rather fetching [‘BB Edit Icon’](http://www.softicons.com/folder-icons/isuite-revoked-icons-by-prax-08/bb-edit-icon) icon by [PraX-08](http://www.softicons.com/designers/prax-08) for my folder.
 
