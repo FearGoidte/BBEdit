@@ -14,4 +14,12 @@ Implemented Anton Bryl’s [`poemnobr.pl`](http://blog.epubbooks.com/898/formatt
 
 I have reformatted and optimized [Gavin Aiken](https://github.com/gavinaiken)’s [Github Flavored Markdown parser and <abbr title="Cascading Style Sheets" class="initialism">C.S.S.</abbr> for BBEdit](https://github.com/gavinaiken/bbedit-scripts) styles out of habit rather than utility.
 
-The parser is used when [Markdown](http://daringfireball.net/projects/markdown/) files are previewed using BBEdit rather than a browser.
+The parser is used when [Markdown](https://daringfireball.net/projects/markdown/) files are previewed using BBEdit rather than a browser.
+
+## go here in Terminal
+
+[Isao Yagi](https://github.com/isao)’s [Go Here in Terminal.applescript](https://github.com/isao/shell/blob/master/bbedit/Scripts/Go%20Here%20in%20Terminal.applescript) to go to the directory that containins the current text document open in BBEdit in Terminal.
+
+Uses an existing window/tab if possible (BBEdit’s built-in command always opens a new Terminal window).
+
+I modified this to create scripts to launch [Middleman](https://middlemanapp.com)’s development server; as well as to build, or deploy, a site.
