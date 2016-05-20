@@ -23,3 +23,11 @@ The parser is used when [Markdown](https://daringfireball.net/projects/markdown/
 Uses an existing window/tab if possible (BBEdit’s built-in command always opens a new Terminal window).
 
 I modified this to create scripts to launch [Middleman](https://middlemanapp.com)’s development server; as well as to build, or deploy, a site.
+
+## Placeholder Clippings
+
+[Ryan Wilcox](https://github.com/rwilcox)’s [bbedit_clippings_clippings](https://github.com/rwilcox/bbedit_clippings_clippings).
+
+## Ruby Clippings
+
+From [Andrew Carter](https://github.com/ascarter)’s [BBEdit-ApplicationSupport](https://github.com/ascarter/BBEdit-ApplicationSupport).
