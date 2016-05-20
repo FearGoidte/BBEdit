@@ -45,3 +45,9 @@ From [Andrew Carter](https://github.com/ascarter)’s [BBEdit-ApplicationSupport
 ### Font stacks
 
 From George Butler’s [10 Definitve Web Font Stacks for designers](https://web.archive.org/web/20141004075536/http://georgebutler.com/blog/typography/10-definitive-web-font-stacks-for-designers/), [The Erudite Theme by Soma Design](http://somadesign.ca/projects/the-erudite/), and [Keith Huston’s Shady Characters](http://www.shadycharacters.co.uk/).
+
+## Stationary
+
+### Syntax highlighting stylesheet for code examples
+
+Based upon [Tom Preston-Werner’s `syntax.css`](https://github.com/mojombo/tpw/blob/master/css/syntax.css).
