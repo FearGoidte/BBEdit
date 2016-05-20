@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<!-- You must identify the plist as a Codeless Language Module -->
+		<key>BBEditDocumentType</key>
+		<string>CodelessLanguageModule</string>
+		<!-- You must identify your language: -->
+		<key>BBLMLanguageDisplayName</key>
+			<string>SubRip text file</string>
+		<key>BBLMLanguageCode</key>
+			<string>srt</string>
+		<!-- Associate with .srt files -->
+		<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.srt</string>
+				</dict>
+			</array>
+		<!-- Spellcheck content -->
+		<key>BBLMCanSpellCheckCodeRuns</key>
+			<true/>
+		<!-- Not required, but there’s not much point to a language module if it doesn’t colour syntax -->
+		<key>BBLMColorsSyntax</key>
+			<true/>
+		<!-- srt files don't care about case -->
+		<key>BBLMIsCaseSensitive</key>
+			<false />
+		<!-- -->
+		<key>BBLMScansFunctions</key>
+			<true />
+		<key>Language Features</key>
+		<dict>
+			<!-- You must specify the character set for keywords and identifiers  -->
+			<key>Identifier and Keyword Character Class</key>
+			<string><![CDATA[
+				A-Za-z0-9_\#?.;!-:<>"'/
+			]]></string>
+			<!-- mark-up coloured as functions -->
+			<key>Keyword Pattern</key>
+				<string><![CDATA[
+				(?x:
+				    (?P<function>
+						<[^->]+>
+					)
+				)
+				]]>
+				</string>
+			<!-- The same comments as X.M.L. files -->
+			<key>Comment Pattern</key>
+				<string><![CDATA[(?x:
+					<!--.*-->
+				)]]></string>
+			<!-- Start and finish time for subtitles coloured as strings -->
+			<key>String Pattern</key>
+				<string><![CDATA[(?x:
+					\d\d:\d\d:\d\d[^\r]+ --> [^\r]+
+				)]]></string>
+			<!-- Don’t look for functions in strings or comments -->
+			<key>Skip Pattern</key>
+				<string><![CDATA[
+				(?x:
+					(?P>comment) |
+					(?P>string)
+				)]]></string>
+		</dict>
+	</dict>
+</plist>
