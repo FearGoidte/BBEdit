@@ -6,9 +6,15 @@ Locally, I’m using the rather fetching [‘BB Edit Icon’](http://www.softico
 
 You are free to with or without as you please. Where content has been shamelessly filched from elsewhere, I have tried to note the fact.
 
-## Automatic non-breaking spaces text filter
+## Text filters
+
+### Automatic non-breaking spaces text filter
 
 Implemented Anton Bryl’s [`poemnobr.pl`](http://blog.epubbooks.com/898/formatting-poetry-for-small-screens) script as a text filter for automatically inserting non-breaking spaces between.
+
+### Convert hex colours to <abbr title="red, green, and blue" class="initialism">R.G.B.</abbr>
+
+[Ryan Wilcox](https://github.com/rwilcox)’s [`html_hex_colors_to_rgb.py`](https://github.com/rwilcox/html.bbpackage/blob/master/Contents/Text%20Filters/HTML%20in%20BBEdit/html_hex_colors_to_rgb.py).
 
 ## GitHub flavoured Markdown preview
 
@@ -16,7 +22,9 @@ I have reformatted and optimized [Gavin Aiken](https://github.com/gavinaiken)’
 
 The parser is used when [Markdown](https://daringfireball.net/projects/markdown/) files are previewed using BBEdit rather than a browser.
 
-## go here in Terminal
+## Scripts
+
+### go here in Terminal
 
 [Isao Yagi](https://github.com/isao)’s [Go Here in Terminal.applescript](https://github.com/isao/shell/blob/master/bbedit/Scripts/Go%20Here%20in%20Terminal.applescript) to go to the directory that containins the current text document open in BBEdit in Terminal.
 
@@ -24,10 +32,16 @@ Uses an existing window/tab if possible (BBEdit’s built-in command always open
 
 I modified this to create scripts to launch [Middleman](https://middlemanapp.com)’s development server; as well as to build, or deploy, a site.
 
-## Placeholder Clippings
+## Clippings
+
+### Placeholder clippings
 
 [Ryan Wilcox](https://github.com/rwilcox)’s [bbedit_clippings_clippings](https://github.com/rwilcox/bbedit_clippings_clippings).
 
-## Ruby Clippings
+### Ruby clippings
 
 From [Andrew Carter](https://github.com/ascarter)’s [BBEdit-ApplicationSupport](https://github.com/ascarter/BBEdit-ApplicationSupport).
+
+### Font stacks
+
+From George Butler’s [10 Definitve Web Font Stacks for designers](https://web.archive.org/web/20141004075536/http://georgebutler.com/blog/typography/10-definitive-web-font-stacks-for-designers/), [The Erudite Theme by Soma Design](http://somadesign.ca/projects/the-erudite/), and [Keith Huston’s Shady Characters](http://www.shadycharacters.co.uk/).
