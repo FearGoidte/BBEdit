@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb-oxendict">
+	<head>
+		<meta name="viewport" content="initial-scale=1" />
+		<title>A recipe</title>
+	</head>
+	<body typeof="http://purl.org/dc/dcmitype/Text schema:Recipe">
+		<header>
+			<time property="dcterms:created dcterms:dateCopyrighted schema:copyrightYear" datetime="2015-04-01">1<sup>st</sup> April 2015</time>
+			<h1 property="dcterms:title schema:name">A recipe</h1>
+			<p property="cc:attributionName dcterms:creator dcterms:rightsHolder schema:copyrightHolder schema:creator" typeof="foaf:Person schema:Person">By <span property="schema:name">First name Last name</span></p>
+		</header>
+		<h2>Table of contents</h2>
+		<ol property="dcterms:tableOfContents">
+			<li><a href="#description">Description</a></li>
+			<li><a href="#ingredients">Ingredients</a></li>
+			<li><a href="#instructions">Instructions</a></li>
+		</ol>
+		<p property="dcterms:description schema:description" id="description">These are instructions on how to make a <em property="schema:recipeCategory">starter</em> recipe.</p>
+		<p>The following instructions will produce <em property="schema:recipeYield">one of recipe</em>.</p>
+		<p>To make this recipe, in the stated quantities, could take:</p>
+		<dl>
+			<dt>Prep Time</dt>
+			<dd><time property="schema:prepTime" datetime="PT15M">15 minutes</time></dd>
+			<dt>Cook time</dt>
+			<dd><time property="schema:cookTime" datetime="PT1H">One hour</time></dd>
+			<dt>Total time</dt>
+			<dd><time property="schema:totalTime" datetime="PT1H15M">One hour and 15 minutes</time></dd>
+		</dl>
+		<h2 id="ingredients">Ingredients</h2>
+		<table>
+			<caption>This table lists the ingredients for the recipe, the first column is the name of the ingredient, the second column is the quantity of the ingredient, and the third column is the unit of measurement.</caption>
+			<thead>
+				<tr>
+					<th rowspan="2">Ingredient</th>
+					<th colspan="2">Amount</th>
+				</tr>
+				<tr>
+					<th>Quantity</th>
+					<th>Unit</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th property="schema:recipeIngredient">Orange</th>
+					<td>Two</td>
+					<td><abbr title="kilogrammes">kg</abbr></td>
+				</tr>
+			</tbody>
+		</table>
+		<h2 id="instructions">Instructions</h2>
+		<ol property="schema:recipeInstructions" typeof="schema:ItemList">
+			<li property="schema:itemListElement">Roast orange</li>
+		</ol>
+		<footer>
+			<p>Unless otherwise indicated, all content is shared under a <a rel="license" property="cc:license dcterms:license schema:license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence</a>.</p>
+		</footer>
+	</body>
+</html>
