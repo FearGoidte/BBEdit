@@ -1,2 +1,2 @@
-#DATETIME_GMT yyyy-MM-dd HH:mm:ss ZZZ#
+#DATETIME_GMT yyyy-MM-dd'T'HH:mm:ssZZZ#
 #INLINE#
