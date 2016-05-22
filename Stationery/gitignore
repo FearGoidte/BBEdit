@@ -1,0 +1,55 @@
+# Compiled source #
+###################
+I*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.app
+
+# Packages #
+############
+*.7z
+*.dmg
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Operating system generated files #
+####################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# OSX Folder icons
+Icon
+
+
+
+# Middleman static blog generator #
+################################
+# Ignore bundler config
+/.bundle
+# Ignore the build directory
+/build
+# Ignore cache
+/.sass-cache
+/.cache
+
+# BBEdit #
+##########
+*.bbprojectd
+*BBEditPreviewTemp*
