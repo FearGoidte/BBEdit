@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb-oxendict">
+	<head>
+		<meta name="viewport" content="initial-scale=1" />
+		<title>Document outline style</title>
+		<style media="screen">
+			<![CDATA[
+				.outline li {
+					left : 0;
+					list-style : none;
+					position : relative
+				}
+				.outline li:first-child::before,
+				.outline li:not(:last-child)::after {
+					border-color : silver;
+					border-style : none solid;
+					border-width : medium;
+					content : "";
+					left : -.6em;
+					position : absolute;
+					top : 0;
+					width : .4em
+				}
+				.outline > li:first-child::before {
+					border-width : 0
+				}
+				.outline li:first-child::before {
+					height : .6em
+				}
+				.outline li:not(:last-child)::after {
+					bottom : -.7em
+				}
+			]]>
+		</style>
+	</head>
+	<body>
+		<h1>Document outline style</h1>
+		<ol class="outline">
+			<li><abbr title="World Wide Web Consortium" class="initialism">W.3.C.</abbr>
+			<ol>
+				<li>Site Navigation
+					<ol>
+						<li>Technical Reports Header link</li>
+						<li>Web and Industry Header link</li>
+						<li>Web for All Header link</li>
+						<li>Community and Business Groups Header link</li>
+						<li>Working Groups Header link</li>
+						<li>Dev Resources Header link</li>
+						<li>Member-only Home Header link</li>
+					</ol>
+				</li>
+				<li>News
+				<ol>
+					<li>CSV on the Web Recommendations Published</li>
+					<li><abbr title="World Wide Web Consortium" class="initialism">W.3.C.</abbr> Invites Implementations of XQuery 3.1: An <abbr title="eXtensible Mark-up Language" class="initialism">X.M.L.</abbr> Query Language</li>
+					<li><abbr title="World Wide Web Consortium" class="initialism">W.3.C.</abbr> Invites Implementation of XPath 3.1; <abbr title="eXtensible Stylesheet Language Transformations" class="initialism">X.S.L.T.</abbr> and XQuery Serialization 3.1</li>
+					<li>Spatial Data on the Web Use Cases and Requirements Note Published</li>
+					<li>Two Drafts Published by the Data on the Web Best Practices <abbr title="working group" class="initialism">W.G.</abbr></li>
+					<li>First Public Working Drafts: Content Security Policy: Cookie Controls; Embedded Enforcement</li>
+					<li><abbr title="World Wide Web Consortium" class="initialism">W.3.C.</abbr> Highlights—October 2015</li>
+				</ol>
+				</li>
+				<li>Talks and Appearances Header link</li>
+				<li>Events Header link</li>
+				<li><abbr title="World Wide Web Consortium" class="initialism">W.3.C.</abbr> Blog Header link</li>
+				<li>Jobs Header link</li>
+				<li>Validators, More Software Header link</li>
+				<li>Web Standards for the Future (Video)</li>
+				<li><abbr title="World Wide Web Consortium" class="initialism">W.3.C.</abbr> Member Testimonial Header link
+				<ol>
+					<li>Inswave Systems <abbr title="company">Co.</abbr>, <abbr title="limited">Ltd</abbr></li>
+				</ol>
+				</li>
+				<li>Footer Navigation
+				<ol>
+					<li>Navigation</li>
+					<li>Contact <abbr title="World Wide Web Consortium" class="initialism">W.3.C.</abbr></li>
+					<li><abbr title="World Wide Web Consortium" class="initialism">W.3.C.</abbr> Updates</li>
+				</ol>
+				</li>
+			</ol>
+			</li>
+		</ol>
+	</body>
+</html>
