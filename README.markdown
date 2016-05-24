@@ -32,11 +32,15 @@ The parser is used when [Markdown](https://daringfireball.net/projects/markdown/
 
 ### go here in Terminal
 
-[Isao Yagi](https://github.com/isao)’s [Go Here in Terminal.applescript](https://github.com/isao/shell/blob/master/bbedit/Scripts/Go%20Here%20in%20Terminal.applescript) to go to the directory that containins the current text document open in BBEdit in Terminal.
+[Isao Yagi](https://github.com/isao)’s [<cite>Go Here in Terminal.applescript</cite>](https://github.com/isao/shell/blob/master/bbedit/Scripts/Go%20Here%20in%20Terminal.applescript) to go to the directory that containins the current text document open in BBEdit in Terminal.
 
 Uses an existing window/tab if possible (BBEdit’s built-in command always opens a new Terminal window).
 
 I modified this to create scripts to launch [Middleman](https://middlemanapp.com)’s development server; as well as to build, or deploy, a site.
+
+### Grab mark-up
+
+[<cite>John Gruber’s Grab <abbr title="Hypertext Mark-up Language" class="initialism">H.T.M.L.</abbr> Script for BBEdit, Redux</cite>](http://daringfireball.net/2003/07/grab_html_script_for_bbedit_redux)
 
 ### Middleman
 
