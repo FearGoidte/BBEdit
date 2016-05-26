@@ -59,7 +59,7 @@
 				<key>ReplaceString</key>
 				<string>—</string>
 				<key>SearchString</key>
-				<string>-$</string>
+				<string> -$</string>
 				<key>UseGrep</key>
 				<true/>
 			</dict>
@@ -87,7 +87,7 @@
 				<key>CaseSensitive</key>
 				<true/>
 				<key>MatchWords</key>
-				<true/>
+				<false/>
 				<key>ReplaceString</key>
 				<string>… \1</string>
 				<key>SearchString</key>
@@ -102,7 +102,7 @@
 			<key>ComponentArguments</key>
 			<dict>
 				<key>MatchWords</key>
-				<true/>
+				<false/>
 				<key>ReplaceString</key>
 				<string>\1 …</string>
 				<key>SearchString</key>
