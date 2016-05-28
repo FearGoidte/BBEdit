@@ -113,6 +113,19 @@
 			<key>ComponentName</key>
 			<string>ReplaceAll</string>
 		</dict>
+		<dict>
+			<key>ComponentArguments</key>
+			<dict>
+				<key>MatchWords</key>
+				<true/>
+				<key>ReplaceString</key>
+				<string> </string>
+				<key>SearchString</key>
+				<string>  </string>
+			</dict>
+			<key>ComponentName</key>
+			<string>ReplaceAll</string>
+		</dict>
 	</array>
 	<key>TextTransformOptions</key>
 	<dict>
