@@ -1,0 +1,6 @@
+[submodule "Packages/Middleman.bbpackage"]
+	path = Packages/Middleman.bbpackage
+	url = https://github.com/FearGoidte/Middleman.bbpackage
+[submodule "Packages/SubRip.bbpackage"]
+	path = Packages/SubRip.bbpackage
+	url = https://github.com/FearGoidte/SubRip.bbpackage
