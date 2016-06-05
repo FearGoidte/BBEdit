@@ -1,0 +1,3 @@
+#BLOCK##INDENT#<% link_to '<#link address#>' do %>
+  #SELECTIONORPLACEHOLDER content goes here#
+<% end %>
