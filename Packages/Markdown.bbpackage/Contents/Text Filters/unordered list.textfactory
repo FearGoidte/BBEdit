@@ -9,17 +9,13 @@
 		<dict>
 			<key>ComponentArguments</key>
 			<dict>
-				<key>MatchWords</key>
-				<false/>
-				<key>ReplaceString</key>
-				<string>* \1</string>
-				<key>SearchString</key>
-				<string>^(\w)</string>
-				<key>UseGrep</key>
+				<key>AddingPrefixOrSuffix</key>
 				<true/>
+				<key>PrefixString</key>
+				<string>* </string>
 			</dict>
 			<key>ComponentName</key>
-			<string>ReplaceAll</string>
+			<string>PrefixSuffixLines</string>
 		</dict>
 	</array>
 	<key>TextTransformOptions</key>
